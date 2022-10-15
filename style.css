@@ -1,0 +1,39 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url("./resources/fonts/Ubuntu-R.ttf");
+}
+
+@font-face {
+    font-family: Ubuntu-B;
+    src: url("./resources/fonts/Ubuntu-B.ttf");
+}
+
+body {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    font-family: Ubuntu;
+}
+
+.page {
+    height: 100%;
+    padding-top: 50px;
+    margin: 0px;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}
+
+h1 {
+    padding-bottom: 50px;
+    color: #ffbb00;
+    font-size: 50px;
+    font-family: Ubuntu-B;
+}
+
+p {
+    font-size: 20px;
+}
